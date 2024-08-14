@@ -10,7 +10,11 @@ body {
   font-size: 16px;
   line-height: 1.4;
   color: #4a4a4c;
+}
 
+*:focus {
+  outline: 2px dotted #7296ee;
+  outline-offset: 3px;
 }
 
 img {
