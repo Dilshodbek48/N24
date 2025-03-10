@@ -1,6 +1,8 @@
 const elModal = document.querySelector('.modal');
-const elModalClose = elModal.querySelector('.js-modal-close');
+const elModalClose = document.querySelector('.js-modal-close');
 
-elModalClose.addEventListener('click', function () {
-  elModal.classList.remove('modal-open');
-});
+if (elModalClose) {
+  elModalClose.addEventListener('click', function () {
+    elModal.classList.remove('modal-open');
+  });
+};
